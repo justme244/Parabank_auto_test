@@ -1,0 +1,14 @@
+{
+    "validUser":{
+        "firstName":"john",
+        "lastname":"muad",
+        "address":"jalanin aja dulu pokoknya",
+        "city":"DKI jakarta",
+        "state":"jakarta barat",
+        "zip":"15159",
+        "phone":"081398765432",
+        "ssn":"43424",
+        "username":"muadJohn123",
+        "password":"Squad@06"
+    }
+}
