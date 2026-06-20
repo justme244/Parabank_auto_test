@@ -33,6 +33,7 @@ export class RegisterPage {
 
     async goto(){
         await this.page.goto('/register')
+        await this.page.goto('parabank/register.htm')
     }
 
     async register(firstname:string,
