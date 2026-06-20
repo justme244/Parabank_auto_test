@@ -7,6 +7,7 @@ import register from "../data/register/register.json";
 test.describe("register test",()=>{
     test("T_Register_01",async({page})=>{
         const registerPage = new RegisterPage(page);
+        await registerPage.goto();
 
         await registerPage.register(
             register.validUser.firstName,
