@@ -1,14 +1,92 @@
 {
-    "validUser":{
-        "firstName":"john",
-        "lastname":"muad",
-        "address":"jalanin aja dulu pokoknya",
-        "city":"DKI jakarta",
-        "state":"jakarta barat",
-        "zip":"15159",
-        "phone":"081398765432",
-        "ssn":"43424",
-        "username":"muadJohn123",
-        "password":"Squad@06"
-    }
+  "validUser": {
+    "firstName": "John",
+    "lastName": "Muad",
+    "address": "123 Sunset Street",
+    "city": "Jakarta",
+    "state": "DKI Jakarta",
+    "zip": "15159",
+    "phone": "081398765432",
+    "ssn": "43424",
+    "username": "johnmuad123",
+    "password": "Squad@06"
+  },
+
+  "secondUser": {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "address": "45 Green Avenue",
+    "city": "Bandung",
+    "state": "West Java",
+    "zip": "40123",
+    "phone": "082212345678",
+    "ssn": "12345",
+    "username": "janesmith01",
+    "password": "Password@123"
+  },
+
+  "emptyFirstName": {
+    "firstName": "",
+    "lastName": "Muad",
+    "address": "123 Sunset Street",
+    "city": "Jakarta",
+    "state": "DKI Jakarta",
+    "zip": "15159",
+    "phone": "081398765432",
+    "ssn": "43424",
+    "username": "johnempty",
+    "password": "Squad@06"
+  },
+
+  "emptyUsername": {
+    "firstName": "John",
+    "lastName": "Muad",
+    "address": "123 Sunset Street",
+    "city": "Jakarta",
+    "state": "DKI Jakarta",
+    "zip": "15159",
+    "phone": "081398765432",
+    "ssn": "43424",
+    "username": "",
+    "password": "Squad@06"
+  },
+
+  "emptyPassword": {
+    "firstName": "John",
+    "lastName": "Muad",
+    "address": "123 Sunset Street",
+    "city": "Jakarta",
+    "state": "DKI Jakarta",
+    "zip": "15159",
+    "phone": "081398765432",
+    "ssn": "43424",
+    "username": "johnpassword",
+    "password": ""
+  },
+
+  "invalidPhone": {
+    "firstName": "John",
+    "lastName": "Muad",
+    "address": "123 Sunset Street",
+    "city": "Jakarta",
+    "state": "DKI Jakarta",
+    "zip": "15159",
+    "phone": "ABCDEF123",
+    "ssn": "43424",
+    "username": "johnphone",
+    "password": "Squad@06"
+  },
+
+  "longUsername": {
+    "firstName": "John",
+    "lastName": "Muad",
+    "address": "123 Sunset Street",
+    "city": "Jakarta",
+    "state": "DKI Jakarta",
+    "zip": "15159",
+    "phone": "081398765432",
+    "ssn": "43424",
+    "username": "thisisaveryveryveryverylongusername123456789",
+    "password": "Squad@06"
+  }
 }

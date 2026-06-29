@@ -4,13 +4,43 @@
     "password": "demo"
   },
 
-  "invalidUser": {
+  "invalidUsername": {
     "username": "wronguser",
-    "password": "wrongpass"
+    "password": "demo"
   },
 
-  "emptyUser": {
+  "invalidPassword": {
+    "username": "john",
+    "password": "wrongpassword"
+  },
+
+  "invalidCredential": {
+    "username": "wronguser",
+    "password": "wrongpassword"
+  },
+
+  "emptyUsername": {
+    "username": "",
+    "password": "demo"
+  },
+
+  "emptyPassword": {
+    "username": "john",
+    "password": ""
+  },
+
+  "emptyCredential": {
     "username": "",
     "password": ""
+  },
+
+  "specialCharacterUsername": {
+    "username": "@#$%^&",
+    "password": "demo"
+  },
+
+  "longUsername": {
+    "username": "thisisaveryveryveryveryverylongusername123456789",
+    "password": "demo"
   }
 }
