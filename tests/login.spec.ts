@@ -7,8 +7,8 @@ test.describe("Login Test",()=>{
     test("T_LOGIN_01 - User can login with Valid data", async({page})=>{
         const loginPage = new LoginPage(page);
         await loginPage.login(
-            user.validUser.username,
-            user.validUser.password
+            user[0].username,
+            user[0].password
         )
         // await page.pause();
         await expect(page).toHaveURL(/overview/i);

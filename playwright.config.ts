@@ -40,8 +40,8 @@ module.exports = defineConfig({
     // Base URL
     baseURL: 'https://parabank.parasoft.com/parabank',
 
-    // Browser mode
-    headless: false,
+    // // Browser mode
+    // headless: false,
 
     // Screenshot otomatis
     screenshot: 'only-on-failure',
