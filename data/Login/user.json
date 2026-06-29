@@ -1,46 +1,56 @@
-{
-  "validUser": {
+[
+  {
+    "scenario": "Valid Login",
     "username": "john",
-    "password": "demo"
+    "password": "demo",
+    "expected": "success"
   },
-
-  "invalidUsername": {
+  {
+    "scenario": "Invalid Username",
     "username": "wronguser",
-    "password": "demo"
+    "password": "demo",
+    "expected": "error"
   },
-
-  "invalidPassword": {
+  {
+    "scenario": "Invalid Password",
     "username": "john",
-    "password": "wrongpassword"
+    "password": "wrongpassword",
+    "expected": "error"
   },
-
-  "invalidCredential": {
+  {
+    "scenario": "Invalid Credentials",
     "username": "wronguser",
-    "password": "wrongpassword"
+    "password": "wrongpassword",
+    "expected": "error"
   },
-
-  "emptyUsername": {
+  {
+    "scenario": "Empty Username",
     "username": "",
-    "password": "demo"
+    "password": "demo",
+    "expected": "validationError"
   },
-
-  "emptyPassword": {
+  {
+    "scenario": "Empty Password",
     "username": "john",
-    "password": ""
+    "password": "",
+    "expected": "validationError"
   },
-
-  "emptyCredential": {
+  {
+    "scenario": "Empty Credentials",
     "username": "",
-    "password": ""
+    "password": "",
+    "expected": "validationError"
   },
-
-  "specialCharacterUsername": {
+  {
+    "scenario": "Special Character Username",
     "username": "@#$%^&",
-    "password": "demo"
+    "password": "demo",
+    "expected": "error"
   },
-
-  "longUsername": {
+  {
+    "scenario": "Long Username",
     "username": "thisisaveryveryveryveryverylongusername123456789",
-    "password": "demo"
+    "password": "demo",
+    "expected": "error"
   }
-}
+]
